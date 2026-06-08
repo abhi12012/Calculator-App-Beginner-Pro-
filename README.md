@@ -1,9 +1,16 @@
 # 🧮 Calculator App
 
-A simple and responsive calculator web application built using HTML, CSS, and JavaScript.  
-It performs basic arithmetic operations with a clean and user-friendly interface.
+A modern and improved calculator web application built using HTML, CSS, and JavaScript.  
+This version includes a beautiful UI, animations, and mobile-friendly design.
 
 ---
+
+
+### 🎨 UI Improvements
+- Modern and clean design
+- Better button layout
+- Improved spacing and alignment
+
 
 ## 🚀 Features
 
@@ -51,8 +58,8 @@ Abhishek Bansal
 
 ---
 
-## 🚀 Project Status
+## 🚀 Future Plans
 
-✔ Completed (Beginner Project)  
-✔ GitHub Ready  
-✔ Portfolio Ready
+- Dark mode 🌙
+- Calculation history 📜
+- Advanced scientific calculator
