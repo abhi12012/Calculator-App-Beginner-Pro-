@@ -16,23 +16,22 @@ function deleteLast() {
 
 function calculate() {
     try {
-        // अगर input खाली है
+
         if (display.value === "") {
             display.value = "0";
             return;
         }
 
-        // calculation
-        let result = eval(display.value);
+        // सिर्फ valid expression allow
+        let result = Function("return " + display.value)();
 
-        // NaN या undefined check
-        if (result === undefined || result === null) {
+        if (result === undefined || result === null || isNaN(result)) {
             display.value = "Error";
         } else {
             display.value = result;
         }
 
-    } catch (error) {
+    } catch {
         display.value = "Error";
     }
 }
