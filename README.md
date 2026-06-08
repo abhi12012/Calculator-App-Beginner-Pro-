@@ -9,85 +9,93 @@ This project has evolved from a basic calculator into a **real-world interactive
 
 ## 🚀 Day 3 Major Upgrades
 
-### ⌨️ Keyboard Support
-Now the calculator can be used with keyboard:
-
-- 🔢 Numbers (0-9)
-- ➕ ➖ ✖ ➗ operators
-- ⌫ Backspace → delete last digit
-- 🔵 Enter → calculate result
-- ❌ Escape → clear screen
+### 📱 Mobile Friendly Design
+- Fully responsive layout
+- Works smoothly on mobile devices
+- Optimized button size and display for small screens
 
 ---
 
-### 🧠 Smart Input Validation
-- Prevents invalid inputs like `++`, `--`, `**`, `//`
-- Ensures clean and correct expression building
-- Improves app stability
+### 🌙 Dark / Light Mode Toggle
+- Switch between dark and light themes
+- Smooth UI transition
+- Better user experience for day/night usage
 
 ---
 
-### 💡 Safer Calculation System
-- Replaced risky evaluation logic
-- Uses safer JavaScript function execution
-- Handles errors properly (no crash)
+### ✨ Button Animation
+- Realistic button press effect
+- Smooth scale animation on click
+- Feels like a real calculator app
 
 ---
 
-## ✨ Features
+### 🧼 UI Polish
+- Improved spacing and layout
+- Clean and modern interface
+- Better readability and usability
+
+---
+
+## 🆕 Features
 
 - ➕ Basic arithmetic operations
 - ⌫ Delete last digit
 - 🧹 Clear screen
-- ⌨ Full keyboard support
-- 🧠 Smart input protection
-- ⚡ Error handling system
-- 📱 Responsive UI
+- 📱 Fully responsive design
+- 🌙 Dark / Light mode toggle
+- ✨ Button press animation
+- ⚡ Smooth UI transitions
 
 ---
 
-## 🆕 Project Evolution
+## 📈 Project Evolution
 
 ### Day 1:
-- Basic calculator UI
-- Simple arithmetic operations
+- Basic calculator functionality
 
 ### Day 2:
 - Modern UI design
-- Animations
-- Mobile responsive layout
+- Responsive layout
+- UI improvements
 
 ### Day 3:
-- Keyboard support added
+- Keyboard support
 - Smart input validation
 - Safer calculation logic
-- Real-world app behavior
+
+### Day 4:
+- Mobile responsive upgrade
+- Dark/Light mode
+- Button animations
+- UI polishing (professional feel)
 
 ---
 
 ## 💻 Tech Stack
 
 - HTML5
-- CSS3
+- CSS3 (Responsive + Animations)
 - JavaScript (ES6)
 
 ---
 
 ## 🧠 What I Learned
 
-- Keyboard event handling
-- DOM manipulation
-- Input validation logic
-- Safe expression evaluation
-- Real-world UI behavior design
+- Responsive web design
+- Theme toggling (dark/light mode)
+- UI animations and transitions
+- Real-world app UI improvements
+- Better user experience design
 
 ---
 
 ## 🚀 Project Status
 
 ✔ Day 1 → Basic Calculator  
-✔ Day 2 → UI + Responsive Upgrade  
-✔ Day 3 → Smart Calculator (Pro Level)  
+✔ Day 2 → UI + Responsive Design  
+✔ Day 3 → Smart Calculator (Keyboard + Validation)  
+✔ Day 4 → Professional UI Upgrade 🚀  
 🚀 Ongoing improvement project
 
 ---
@@ -100,4 +108,4 @@ Abhishek Bansal
 
 ## 🔥 Goal
 
-To build a real-world calculator that behaves like a professional application with smart input handling and keyboard support.
+To build a real-world calculator application that looks and behaves like a professional software product with modern UI/UX features.

@@ -64,3 +64,48 @@ button:nth-child(4) {
 button:nth-child(16) {
     background: #22c55e;
 }
+
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #display {
+        font-size: 20px;
+        height: 50px;
+    }
+}
+
+.light {
+    background: #f1f5f9;
+}
+
+.light .calculator {
+    background: #ffffff;
+}
+
+.light #display {
+    background: #e2e8f0;
+    color: black;
+}
+
+.light button {
+    background: #cbd5e1;
+    color: black;
+}
+
+button:active {
+    transform: scale(0.9);
+    background: #64748b;
+}
+
+button {
+    transition: all 0.15s ease;
+}

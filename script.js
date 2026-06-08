@@ -35,3 +35,15 @@ function calculate() {
         display.value = "Error";
     }
 }
+
+function toggleTheme() {
+    document.body.classList.toggle("light");
+
+    let btn = document.getElementById("themeBtn");
+
+    if (document.body.classList.contains("light")) {
+        btn.innerText = "🌞 Mode";
+    } else {
+        btn.innerText = "🌙 Mode";
+    }
+}
