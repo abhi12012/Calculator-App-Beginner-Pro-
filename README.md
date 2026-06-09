@@ -1,148 +1,131 @@
-# 🧮 Calculator App
+# 🧮 Pro Calculator
 
-🧮 Advanced Calculator App (Day 5 Upgrade 🚀)
-
-# 🧮 Advanced Calculator
-
-एक Modern Calculator Web App जो HTML, CSS और JavaScript से बनाया गया है।
+A modern calculator built using HTML, CSS, and JavaScript.
 
 ## 🚀 Features
 
-### Basic Operations
-- ➕ Addition
-- ➖ Subtraction
-- ✖ Multiplication
-- ➗ Division
+### Basic Calculator Operations
 
-### Advanced Features
-- 💾 Memory System
-  - M+ (Memory Add)
-  - M- (Memory Subtract)
-  - MR (Memory Recall)
-  - MC (Memory Clear)
+* Addition (+)
+* Subtraction (-)
+* Multiplication (*)
+* Division (/)
 
-- 📜 Calculation History
-  - सभी calculations save होती हैं
-  - पुरानी calculations देख सकते हैं
+### Memory Functions
 
-- 🌙 Dark / Light Theme
-  - Theme Switch Button
-  - Better User Experience
+* MC (Memory Clear)
+* MR (Memory Recall)
+* M+ (Memory Add)
+* M- (Memory Subtract)
 
-- ⚠ Error Handling
-  - Invalid calculations पर Error दिखाता है
-  - Safe Calculation System
+### History System
 
-- 🛡 Safety Checks
-  - Empty display handling
-  - NaN checking
-  - Undefined result protection
+* Stores calculation history
+* Displays previous calculations
+* Clear history option
+
+### Theme Toggle
+
+* Dark Mode
+* Light Mode
+
+### Additional Features
+
+* Delete Last Character (DEL)
+* Clear Display (C)
+* Error Handling
+* Responsive Grid Layout
 
 ---
 
 ## 🛠 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
 ---
 
 ## 📂 Project Structure
 
-```text
-calculator/
-│
+calculator-app/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
-```
 
 ---
 
-## 📖 How It Works
+## ⚙️ How It Works
 
-1. User number enter करता है।
-2. User operation select करता है।
-3. Calculator expression evaluate करता है।
-4. Result display पर दिखता है।
-5. Calculation history में save हो जाती है।
-6. Memory buttons memory values manage करते हैं।
-
----
-
-## 💾 Memory Functions
-
-| Button | Function |
-|----------|----------|
-| M+ | Value Memory में Add करता है |
-| M- | Value Memory से Subtract करता है |
-| MR | Memory Value Show करता है |
-| MC | Memory Clear करता है |
+1. Enter numbers using the calculator buttons.
+2. Select an operator (+, -, *, /).
+3. Press "=" to calculate the result.
+4. Results are displayed on the screen.
+5. Every successful calculation is saved in History.
+6. Memory buttons allow storing and recalling values.
 
 ---
 
-## 📜 History Feature
+## 💾 Memory Buttons
 
-हर successful calculation history array में save होती है।
+| Button | Description                        |
+| ------ | ---------------------------------- |
+| MC     | Clear memory                       |
+| MR     | Recall memory value                |
+| M+     | Add current value to memory        |
+| M-     | Subtract current value from memory |
 
-Example:
+---
 
-```text
+## 📜 History Example
+
 10 + 20 = 30
+
 50 - 15 = 35
-8 * 5 = 40
-```
+
+7 * 8 = 56
 
 ---
 
-## 🛡 Error Protection
+## 🛡 Error Handling
 
-Calculator में निम्न safety checks लगाए गए हैं:
+The calculator handles:
 
-```javascript
-if (!display.value) {
-    display.value = "";
-}
-```
-
-और:
-
-```javascript
-if (result === undefined || isNaN(result)) {
-    display.value = "Error";
-    return;
-}
-```
-
-इससे invalid calculations handle होती हैं।
+* Invalid expressions
+* Empty calculations
+* NaN results
+* Runtime calculation errors
 
 ---
 
-## 🎯 Learning Goals
+## 📚 Concepts Practiced
 
-इस project से मैंने सीखा:
+This project helped me learn:
 
-- DOM Manipulation
-- Functions
-- Arrays
-- Events
-- Error Handling
-- Memory Management
-- Theme Switching
-- Git & GitHub Workflow
+* DOM Manipulation
+* JavaScript Functions
+* Arrays
+* Event Handling
+* CSS Grid
+* Theme Switching
+* Error Handling
+* Git & GitHub Workflow
 
 ---
 
 ## 🔮 Future Improvements
 
-- Keyboard Support
-- Scientific Calculator
-- Percentage Function
-- Square Root
-- Local Storage History
-- Mobile Responsive Design
+* Keyboard Support
+* Scientific Calculator Functions
+* Local Storage History
+* Percentage Button
+* Square Root Function
+* Mobile Optimization
 
 ---
 

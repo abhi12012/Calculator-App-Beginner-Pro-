@@ -1,30 +1,31 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+    min-height: 100vh;
+    background: #0f172a;
     font-family: Arial;
+    color: white;
 }
 
 .calculator {
     background: #111827;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-    width: 260px;
+    width: 280px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 
 #display {
     width: 100%;
     height: 60px;
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     text-align: right;
-    border: none;
-    outline: none;
     padding: 10px;
     border-radius: 8px;
+    border: none;
     background: #1f2937;
     color: white;
 }
@@ -32,63 +33,45 @@ body {
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 8px;
 }
 
 button {
-    height: 55px;
-    font-size: 18px;
-    cursor: pointer;
+    height: 50px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     background: #374151;
     color: white;
+    cursor: pointer;
     transition: 0.2s;
 }
 
-/* hover effect */
+button:active {
+    transform: scale(0.9);
+}
+
 button:hover {
     background: #4b5563;
-    transform: scale(1.05);
 }
 
-/* special buttons */
-button:nth-child(1) {
-    background: #ef4444;
-}
-
-button:nth-child(4) {
-    background: #f59e0b;
-}
-
-button:nth-child(16) {
-    background: #22c55e;
-}
-
-
-@media (max-width: 400px) {
-    .calculator {
-        width: 90%;
-        padding: 15px;
-    }
-
-    button {
-        height: 50px;
-        font-size: 16px;
-    }
-
-    #display {
-        font-size: 20px;
-        height: 50px;
-    }
+.history-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: #0f172a;
+    border-radius: 10px;
+    width: 280px;
+    max-height: 180px;
+    overflow-y: auto;
+    font-size: 14px;
 }
 
 .light {
     background: #f1f5f9;
+    color: black;
 }
 
 .light .calculator {
-    background: #ffffff;
+    background: white;
 }
 
 .light #display {
@@ -99,34 +82,4 @@ button:nth-child(16) {
 .light button {
     background: #cbd5e1;
     color: black;
-}
-
-button:active {
-    transform: scale(0.9);
-    background: #64748b;
-}
-
-button {
-    transition: all 0.15s ease;
-}
-
-
-.history-box {
-    margin-top: 15px;
-    padding: 10px;
-    background: #0f172a;
-    color: white;
-    border-radius: 10px;
-    max-height: 180px;
-    overflow-y: auto;
-    font-size: 14px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-.calculator {
-    background: #111827;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-    width: 280px;
 }
