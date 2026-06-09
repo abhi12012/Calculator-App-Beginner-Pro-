@@ -109,3 +109,24 @@ button:active {
 button {
     transition: all 0.15s ease;
 }
+
+
+.history-box {
+    margin-top: 15px;
+    padding: 10px;
+    background: #0f172a;
+    color: white;
+    border-radius: 10px;
+    max-height: 180px;
+    overflow-y: auto;
+    font-size: 14px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.calculator {
+    background: #111827;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+    width: 280px;
+}

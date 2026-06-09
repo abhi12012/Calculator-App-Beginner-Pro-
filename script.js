@@ -45,6 +45,10 @@ function memorySub() {
 }
 
 function calculate() {
+
+    if (!display.value) {
+    display.value = "";
+}
     try {
 
         if (display.value === "") {
@@ -84,4 +88,9 @@ function toggleTheme() {
 
 function showHistory() {
     alert(history.join("\n"));
+}
+
+function clearHistory() {
+    history = [];
+    historyBox.innerHTML = "History cleared";
 }

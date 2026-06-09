@@ -2,106 +2,152 @@
 
 🧮 Advanced Calculator App (Day 5 Upgrade 🚀)
 
-A modern and responsive calculator built using HTML, CSS, and JavaScript.
-This project has evolved from a simple calculator into an advanced mini application with memory and history features.
+# 🧮 Advanced Calculator
 
-🚀 Day 5 Major Upgrades
-💾 Memory System
+एक Modern Calculator Web App जो HTML, CSS और JavaScript से बनाया गया है।
 
-Real calculator memory buttons added:
+## 🚀 Features
 
-MC (Memory Clear)
-MR (Memory Recall)
-M+ (Add value to memory)
-M- (Subtract value from memory)
+### Basic Operations
+- ➕ Addition
+- ➖ Subtraction
+- ✖ Multiplication
+- ➗ Division
 
-This allows users to store and reuse values during calculations.
+### Advanced Features
+- 💾 Memory System
+  - M+ (Memory Add)
+  - M- (Memory Subtract)
+  - MR (Memory Recall)
+  - MC (Memory Clear)
 
-📜 Calculation History
-Stores previous calculations
-Displays calculation history
-Helps users review past operations
+- 📜 Calculation History
+  - सभी calculations save होती हैं
+  - पुरानी calculations देख सकते हैं
+
+- 🌙 Dark / Light Theme
+  - Theme Switch Button
+  - Better User Experience
+
+- ⚠ Error Handling
+  - Invalid calculations पर Error दिखाता है
+  - Safe Calculation System
+
+- 🛡 Safety Checks
+  - Empty display handling
+  - NaN checking
+  - Undefined result protection
+
+---
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+
+---
+
+## 📂 Project Structure
+
+```text
+calculator/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## 📖 How It Works
+
+1. User number enter करता है।
+2. User operation select करता है।
+3. Calculator expression evaluate करता है।
+4. Result display पर दिखता है।
+5. Calculation history में save हो जाती है।
+6. Memory buttons memory values manage करते हैं।
+
+---
+
+## 💾 Memory Functions
+
+| Button | Function |
+|----------|----------|
+| M+ | Value Memory में Add करता है |
+| M- | Value Memory से Subtract करता है |
+| MR | Memory Value Show करता है |
+| MC | Memory Clear करता है |
+
+---
+
+## 📜 History Feature
+
+हर successful calculation history array में save होती है।
 
 Example:
 
-10 + 5 = 15
+```text
+10 + 20 = 30
+50 - 15 = 35
+8 * 5 = 40
+```
 
-20 * 3 = 60
+---
 
-100 / 4 = 25
+## 🛡 Error Protection
 
-🧠 Smart Logic
-Memory values are stored using JavaScript variables
-Calculation history is stored in an array
-Automatic tracking of successful calculations
-✨ Features
-Basic Features
-Addition
-Subtraction
-Multiplication
-Division
-Clear Display
-Delete Last Character
-Advanced Features
-Keyboard Support
-Smart Input Validation
-Error Handling
-Responsive Design
-Dark / Light Mode
-Button Animations
-Memory System (MC, MR, M+, M-)
-Calculation History
-📈 Project Evolution
-Day 1
-Basic calculator operations
-Day 2
-Modern UI
-Responsive design
-Day 3
-Keyboard support
-Smart input protection
-Day 4
-Dark / Light mode
-Button animations
-UI polishing
-Day 5
-Memory system
-Calculation history
-Real calculator behavior
-💻 Tech Stack
-HTML5
-CSS3
-JavaScript (ES6)
-🧠 Learning Outcomes
+Calculator में निम्न safety checks लगाए गए हैं:
 
-This project helped me learn:
+```javascript
+if (!display.value) {
+    display.value = "";
+}
+```
 
-DOM Manipulation
-Event Handling
-State Management
-Arrays and Data Storage
-Memory Logic
-History Tracking
-Responsive Design
-UI/UX Improvements
-🚀 Project Status
+और:
 
-✔ Day 1 → Basic Calculator
+```javascript
+if (result === undefined || isNaN(result)) {
+    display.value = "Error";
+    return;
+}
+```
 
-✔ Day 2 → Modern UI
+इससे invalid calculations handle होती हैं।
 
-✔ Day 3 → Smart Calculator
+---
 
-✔ Day 4 → Professional Calculator
+## 🎯 Learning Goals
 
-✔ Day 5 → Advanced Calculator with Memory & History
+इस project से मैंने सीखा:
 
-🚀 Portfolio Ready Project
+- DOM Manipulation
+- Functions
+- Arrays
+- Events
+- Error Handling
+- Memory Management
+- Theme Switching
+- Git & GitHub Workflow
 
-👨‍💻 Author
+---
+
+## 🔮 Future Improvements
+
+- Keyboard Support
+- Scientific Calculator
+- Percentage Function
+- Square Root
+- Local Storage History
+- Mobile Responsive Design
+
+---
+
+## 👨‍💻 Author
 
 Abhishek Bansal
 
-🎯 Goal
-
-Build a professional calculator application with modern UI, memory functions, history tracking, and real-world user experience.
+Learning Web Development Step by Step 🚀
