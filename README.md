@@ -4,6 +4,20 @@ A modern calculator built using HTML, CSS, and JavaScript.
 
 ## 🚀 Features
 
+---
+
+## 📸 Screenshot
+
+![Calculator Screenshot](screenshot.png)
+
+
+
+---
+
+## 🚀 Live Demo
+
+[View Calculator]( https://abhi12012.github.io/Calculator-App-Beginner-Pro-/)
+
 ### Basic Calculator Operations
 
 * Addition (+)

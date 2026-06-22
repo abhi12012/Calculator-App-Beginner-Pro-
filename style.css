@@ -65,6 +65,9 @@ button:hover {
     font-size: 14px;
 }
 
+
+/* Light Mode */
+
 .light {
     background: #f1f5f9;
     color: black;
@@ -81,5 +84,15 @@ button:hover {
 
 .light button {
     background: #cbd5e1;
+    color: #111827;
+}
+
+.light button:hover {
+    background: #94a3b8;
+    color: black;
+}
+
+.light .history-box {
+    background: #e2e8f0;
     color: black;
 }
